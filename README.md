@@ -9,5 +9,4 @@ Desarrollo de una aplicación de comercio electrónico funcional aplicando conce
 * Tailwind CSS
 
 ## Enlaces del Proyecto
-* **Video Demostrativo:** 
-* **Despliegue en Vivo:** 
+* **Despliegue en Vivo:*https://ecommerce-app-qd6v.vercel.app/* 
