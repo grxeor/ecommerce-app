@@ -44,24 +44,6 @@ export default function LoginPage() {
               placeholder="tu@correo.com"
             />
           </div>
-
-          <div className="bg-white rounded-lg shadow-sm border border-slate-100 p-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-        <h2 className="text-xl font-extrabold text-slate-800">Total a pagar: ${total.toFixed(2)}</h2>
-        <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
-          <button 
-            onClick={generarPDF}
-            className="w-full sm:w-auto bg-green-600 text-white px-6 py-3 rounded-md font-bold hover:bg-green-700 transition-colors"
-          >
-            Descargar PDF
-          </button>
-          <button 
-            onClick={enviarPorCorreo}
-            className="w-full sm:w-auto bg-blue-600 text-white px-6 py-3 rounded-md font-bold hover:bg-blue-700 transition-colors"
-          >
-            Enviar al Correo
-          </button>
-        </div>
-      </div>
           
           <div>
             <label className="block text-sm font-medium text-slate-700 mb-1">Contraseña</label>
@@ -73,8 +55,6 @@ export default function LoginPage() {
               placeholder="********"
             />
           </div>
-
-          
 
           <button 
             type="submit" 
